@@ -6,7 +6,7 @@ import { IoIosContact } from 'react-icons/io';
 import { IoMenu, IoClose } from 'react-icons/io5';
 import Link from 'next/link';
 
-export default function Navbar(){
+export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -17,8 +17,8 @@ export default function Navbar(){
     <div className="p-4 w-full h-auto">
       {/* Top Section */}
       <div className="flex justify-between items-center py-2">
-        {/* Search Icon for Large Screens (Tablet and above) */}
-        <div className="sm:hidden md:block">
+        {/* Search Icon for Mobile */}
+        <div className="md:hidden">
           <CiSearch size={25} className="text-[#2A254B]" />
         </div>
 
@@ -28,7 +28,7 @@ export default function Navbar(){
         </h1>
 
         {/* Cart and Contact Icons for Large Screens */}
-        <div className="sm:hidden md:flex gap-4">
+        <div className="hidden md:flex gap-4">
           <Link href="./Cart">
             <IoCartOutline size={25} className="text-[#2A254B]" />
           </Link>
@@ -42,7 +42,7 @@ export default function Navbar(){
             className="text-2xl focus:outline-none z-30"
             onClick={toggleMenu}
           >
-            {!menuOpen ? <IoMenu /> : <IoClose />} 
+            {!menuOpen ? <IoMenu /> : <IoClose />}
           </button>
         </div>
       </div>
@@ -51,7 +51,9 @@ export default function Navbar(){
 
       {/* Mobile Navigation Links */}
       <header
-        className={`fixed top-0 right-0 py-6 h-full w-3/4 bg-white shadow-lg transition-transform duration-300 ease-in-out ${menuOpen ? 'translate-x-0' : 'translate-x-full'} md:static md:w-auto md:translate-x-0 md:bg-transparent md:shadow-none z-20`}
+        className={`fixed top-0 right-0 py-6 h-full w-3/2 md:w-auto bg-white shadow-lg transition-transform duration-300 ease-in-out ${
+          menuOpen ? 'translate-x-0' : 'translate-x-full'
+        } md:static md:w-auto md:translate-x-0 md:bg-transparent md:shadow-none z-20`}
       >
         {/* Close Button in Mobile Menu */}
         {menuOpen && (
@@ -71,11 +73,8 @@ export default function Navbar(){
               <Link href="/">{item}</Link>
             </li>
           ))}
-          
         </ul>
       </header>
     </div>
-  
   );
-};
-
+}
