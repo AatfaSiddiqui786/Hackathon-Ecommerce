@@ -1,10 +1,8 @@
 import React from "react";
 import Image from 'next/image'
-import Navbar from "../Components/Navbar";
-const About = () => {
+  const About = () => {
   return (
     <div>
-      <Navbar/>
       {/* Hero Section */}
       <div className="w-full h-auto flex flex-col md:flex-row justify-between items-center px-4 md:px-16 py-8">
         <div className="md:w-2/4 text-xl md:text-2xl text-center md:text-left text-custom-purple text-[#2A254B] ">

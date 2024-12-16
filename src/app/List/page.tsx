@@ -6,8 +6,9 @@ import { TbTruckDelivery } from 'react-icons/tb';
 import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 import { LuSprout } from "react-icons/lu";
 import { MdOutlinePriceChange } from "react-icons/md";
+import Signup from '../Components/Signup';
 
-                const List = () => {
+const List = () => {
   const features = [
     {
       title: 'Next day as standard',
@@ -142,6 +143,8 @@ import { MdOutlinePriceChange } from "react-icons/md";
             })}
           </div>
         </div>
+
+        <Signup/>
       </section>
     </>
   );

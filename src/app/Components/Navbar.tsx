@@ -29,7 +29,7 @@ export default function Navbar() {
 
         {/* Cart and Contact Icons for Large Screens */}
         <div className="hidden md:flex gap-4">
-          <Link href="./Cart">
+          <Link href="/Cart">
             <IoCartOutline size={25} className="text-[#2A254B]" />
           </Link>
           <IoIosContact size={25} className="text-[#2A254B]" />
