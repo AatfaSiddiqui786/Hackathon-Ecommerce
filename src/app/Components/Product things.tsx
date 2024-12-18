@@ -26,7 +26,7 @@ const Productthings = () => {
                 height={800}
                 width={800}
                 alt='sofa'
-                className='w-full h-[80%] object-cover transition-transform duration-300 ease-in-out group-hover:scale-105'
+                className='w-full h-[80%] object-cover '
               />
               <div className='mt-4 text-[#2A254B]'>
                 <p className='py-2'>The popular suede sofa</p>
