@@ -16,8 +16,8 @@ import Image from 'next/image'
       </div>
 
       {/* Story Section */}
-      <div className="flex flex-col md:flex-row w-full h-auto items-center justify-around px-4 py-16">
-        <div className="bg-[#2A254B] w-full md:w-2/5 text-white p-8 md:p-16 mb-8 md:mb-0">
+      <div className="flex flex-col md:flex-row w-full h-auto items-center justify-around px-4 py-16 pl-9">
+        <div className="bg-[#2A254B] w-full md:w-2/4 text-white p-8 md:p-16 mb-8 md:mb-0">
           <h1 className="text-xl md:text-2xl">It started with a small idea</h1>
           <p className="mt-6">
             A global brand with local beginnings, our story began in a small studio in South London in early 2014.
@@ -26,13 +26,13 @@ import Image from 'next/image'
             View Collection
           </button>
         </div>
-        <div className="w-full md:w-2/5">
+        <div className="w-full md:w-2/4 ">
           <Image
             src="/images/About main.png"
             alt="About main"
             width={300} 
             height={300}
-            className="w-full transition-transform duration-300 ease-in-out hover:scale-105 hover:translate-y-1"
+            className="w-full transition-transform duration-300 ease-in-out "
           />
         </div>
       </div>
@@ -44,9 +44,9 @@ import Image from 'next/image'
           alt="Service"
           width={300} 
           height={300}
-          className="w-full md:w-2/5 transition-transform duration-300 ease-in-out hover:scale-105 hover:translate-y-1"
+          className="w-full md:w-2/4 transition-transform duration-300 "
         />
-        <div className="border-2 bg-slate-200 w-full md:w-3/5 p-8 md:p-20">
+        <div className="border-2 bg-slate-200 w-full md:w-2/4 p-8 md:p-20">
           <h1 className="text-xl md:text-2xl text-[#2A254B]">
             Our service isn&lsquo;t just personal, it&lsquo;s actually hyper-personally exquisite
           </h1>

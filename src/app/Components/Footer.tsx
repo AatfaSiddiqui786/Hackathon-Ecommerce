@@ -41,9 +41,11 @@ export const Footer = () => {
             <div className='space-y-2'>
               <h1><Link href='/About'>About us</Link></h1>
               <h1><Link href={'/List'}>Product List</Link></h1>
+              <h1><Link href={'/Products'}>Product</Link></h1>
               <h1><Link href={'/Shopping'}>Shopping</Link></h1>
               <h1><Link href={'/Contact'}>Contact Me</Link></h1>
               <h1><Link href={'/'}>Return policy</Link></h1>
+              
             </div>
           </div>
 
