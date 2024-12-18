@@ -94,7 +94,7 @@ import Image from 'next/image'
                 alt={item.title}
                 width={300} 
                 height={300}
-                className="h-[24px] w-[24px] mx-auto transition-transform duration-300 ease-in-out hover:scale-105 hover:translate-y-1"
+                className="h-[24px] w-[24px] mx-auto "
               />
               <h1 className="text-custom-purple text-lg mt-4">{item.title}</h1>
               <p className="text-custom-purple mt-4">{item.desc}</p>
