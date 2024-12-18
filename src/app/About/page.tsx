@@ -16,8 +16,8 @@ import Image from 'next/image'
       </div>
 
       {/* Story Section */}
-      <div className="flex flex-col md:flex-row w-full h-auto items-center justify-around px-4 py-16 pl-9">
-        <div className="bg-[#2A254B] w-full md:w-2/4 text-white p-8 md:p-16 mb-8 md:mb-0">
+      <div className="flex flex-col md:flex-row w-full h-auto items-center justify-around px-4 py-16 pl-9 gap-3">
+        <div className="bg-[#2A254B] w-full md:w-2/4 text-white p-8 md:p-[7%] mb-8 md:mb-0">
           <h1 className="text-xl md:text-2xl">It started with a small idea</h1>
           <p className="mt-6">
             A global brand with local beginnings, our story began in a small studio in South London in early 2014.
@@ -46,7 +46,7 @@ import Image from 'next/image'
           height={300}
           className="w-full md:w-2/4 transition-transform duration-300 "
         />
-        <div className="border-2 bg-slate-200 w-full md:w-2/4 p-8 md:p-20">
+        <div className="border-2 bg-white w-full md:w-2/4 p-8 md:p-[4%] ">
           <h1 className="text-xl md:text-2xl text-[#2A254B]">
             Our service isn&lsquo;t just personal, it&lsquo;s actually hyper-personally exquisite
           </h1>
