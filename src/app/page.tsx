@@ -13,10 +13,10 @@ export default function Home() {
       
       <Hero />
       <Branded />
-      <Things />
+       <Things />
        <Productthings />
       <Signup/>
-      <Matter/>
+      <Matter/> 
     
 
     </div>

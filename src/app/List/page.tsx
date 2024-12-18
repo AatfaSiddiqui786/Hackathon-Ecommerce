@@ -72,7 +72,7 @@ const List = () => {
                   <div className="my-8">
                     <h1 className="font-semibold">Dimensions</h1>
                   </div>
-                  <div className="flex gap-12 md:gap-20 text-sm md:text-base">
+                  <div className="flex gap-8  md:gap-20 text-sm md:text-base">
                     <div>
                       <h1>Height</h1>
                       <p>110cm</p>
@@ -104,7 +104,7 @@ const List = () => {
 
           {/* Suggestions Section */}
           <h1 className="text-xl md:text-2xl font-semibold mt-12 text-[#505977]">You might also like</h1>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-8">
             {['chair', 'vase', 'silky', 'lamp'].map((item, idx) => (
               <div key={idx} className="w-full">
                 <Image

@@ -50,9 +50,9 @@ export default function Contact() {
         <div className="px-0 py-6  md:py-12 md:px-6 mt-14 ">
 
           {/* Contact Form */}
-          <form onSubmit={handleSubmit} className="space-y-4">
-            <div className="flex items-center mr-7">
-              <label htmlFor="name" className="  hover:text-pink-500 block text-sm font-semibold text-white w-1/3">
+          <form onSubmit={handleSubmit} className="space-y-4 mx-auto">
+            <div className="flex justify-center items-center">
+              <label htmlFor="name" className="mt-3 mr-3  hover:text-pink-500 block text-sm font-semibold text-black">
                 Name
               </label>
               <input
@@ -67,8 +67,8 @@ export default function Contact() {
               />
             </div>
 
-            <div className="flex items-center mr-7">
-              <label htmlFor="email" className=" hover:text-pink-500 block text-sm font-semibold text-white w-1/3">
+            <div className="flex items-center">
+              <label htmlFor="email" className="mt-3 mr-3  hover:text-pink-500 block text-sm font-semibold text-black">
                 Email
               </label>
               <input
@@ -83,8 +83,8 @@ export default function Contact() {
               />
             </div>
 
-            <div className="flex items-center  mr-7">
-              <label htmlFor="message" className="  hover:text-pink-500 block text-sm font-semibold text-white w-1/3">
+            <div className="flex items-center">
+              <label htmlFor="message" className="  hover:text-pink-500 block text-sm font-semibold text-black">
                 Message
               </label>
               <textarea
@@ -94,13 +94,13 @@ export default function Contact() {
                 onChange={handleChange}
                 required
                 rows={5}
-                className="  h-20 w-44 md:h-[95px] md:w-[65%] px-3 md:px-4 py-2 mt-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-800 "
+                className="  h-20  w-44 md:h-[95px] md:w-[65%] px-3 md:px-4 py-2 mt-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-800 "
                 placeholder="Write your message"
               />
             </div>
             <button
                 type="submit"
-                className=" ml-14 hover:text-pink-500 w-40 md:ml-[115px] py-3 my-6  bg-slate-800 text-white font-semibold rounded-md hover:bg-black  focus:outline-none focus:ring-2 focus:ring-violet-300"
+                className=" hover:text-pink-500 w-40 md:ml-[115px] py-3 my-6  bg-slate-800 text-white font-semibold rounded-md hover:bg-black  focus:outline-none focus:ring-2 focus:ring-violet-300"
               >
                 Send Message
               </button>

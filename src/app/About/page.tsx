@@ -16,26 +16,29 @@ import Image from 'next/image'
       </div>
 
       {/* Story Section */}
-      <div className="flex flex-col md:flex-row w-full h-auto items-center justify-around px-4 py-16 pl-9 gap-3">
-        <div className="bg-[#2A254B] w-full md:w-2/4 text-white p-8 md:p-[7%] mb-8 md:mb-0">
-          <h1 className="text-xl md:text-2xl">It started with a small idea</h1>
-          <p className="mt-6">
-            A global brand with local beginnings, our story began in a small studio in South London in early 2014.
-          </p>
-          <button className="bg-[#4E4D93] h-12 w-40 rounded-sm mt-10 text-white">
-            View Collection
-          </button>
-        </div>
-        <div className="w-full md:w-2/4 ">
-          <Image
-            src="/images/About main.png"
-            alt="About main"
-            width={300} 
-            height={300}
-            className="w-full transition-transform duration-300 ease-in-out "
-          />
-        </div>
-      </div>
+     
+                         {/* Story Section */}
+                         <div className="flex flex-col md:flex-row w-full h-auto items-center justify-around px-0 md:px-4 py-16 gap-2">
+                             <div className="bg-[#2A254B] w-full md:w-2/4 text-white p-8 md:p-[6.3%] mb-8 md:mb-0">
+                                 <h1 className="text-sm md:text-2xl">It started with a small idea</h1>
+                                 <p className="mt-6">
+                                     A global brand with local beginnings, our story began in a small studio in South London in early 2014.
+                                 </p>
+                                 <button className="bg-[#4E4D93] md:h-12 md:w-40 h-10  w-32 rounded-sm mt-10 text-white">
+                                     View Collection
+                                 </button>
+                             </div>
+                             <div className="w-full md:w-2/4 ">
+                                 <Image
+                                     src="/images/About main.png"
+                                     alt="About main"
+                                     width={300}
+                                     height={300}
+                                     className="w-full transition-transform duration-300 ease-in-out "
+                                 />
+                             </div>
+                         </div>
+     
 
       {/* Service Section */}
       <div className="flex flex-col md:flex-row w-full h-auto items-center px-4 py-16 space-y-8 md:space-y-0">
@@ -114,7 +117,7 @@ import Image from 'next/image'
             <input
               type="text"
               placeholder="you@gmail.com"
-              className="bg-gray-100 w-80 h-12 p-5 rounded-sm"
+              className="bg-gray-100 w-40 md:w-80 h-12 p-5 rounded-sm"
             />
             <button className="bg-[#4E4D93] h-12 w-32 rounded-sm text-white">Sign Up</button>
           </div>

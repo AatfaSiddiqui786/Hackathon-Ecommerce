@@ -6,7 +6,7 @@ const Shopping = () => {
   return (
     <div>
       <div className="h-auto w-full  p-8">
-        <h1 className="text-black text-4xl font-medium pb-8 pl-12 text-center sm:text-left">
+        <h1 className="text-black text-4xl font-medium text-center sm:text-left mb-6">
           Your Shopping Cart
         </h1>
         {/* Table Header */}
@@ -50,13 +50,13 @@ const Shopping = () => {
           </div>
         </div>
         {/* Subtotal */}
-        <div className="flex justify-between sm:justify-end mt-8 pr-28 ">
+        <div className="flex justify-between sm:justify-end mt-8  ">
           <p className="text-gray-600 text-lg">Subtotal</p>
           <p className="font-semibold text-lg">£210</p>
         </div>
         {/* Checkout Button */}
         <div className="flex justify-end mt-6">
-          <button className="bg-[#4E4D93] text-white py-2  px-6 mr-20  transition">
+          <button className="bg-[#4E4D93] text-white py-2 items-center px-6  transition">
             Go to Checkout
           </button>
         </div>

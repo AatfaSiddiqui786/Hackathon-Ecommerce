@@ -9,7 +9,7 @@ export const Footer = () => {
     <div>
 
 
-<div className='px-6 md:px-12 py-8 bg-[#2A254B] mt-8'>
+      <div className='px-6 md:px-12 py-8 bg-[#2A254B] mt-8'>
         <div className="flex flex-wrap gap-12 md:gap-[100px] lg:gap-[200px]">
           {/* Menu Section */}
           <div className="text-white w-full sm:w-auto">
@@ -39,14 +39,14 @@ export const Footer = () => {
           <div className="text-white w-full sm:w-auto">
             <h1 className="text-lg md:text-xl font-bold">Our Company</h1>
             <div className='space-y-2'>
-            <h1><Link href='/Home2'>Home2</Link></h1>
+              <h1><Link href='/Home2'>Home2</Link></h1>
               <h1><Link href='/About'>About us</Link></h1>
               <h1><Link href={'/List'}>Product List</Link></h1>
               <h1><Link href={'/Products'}>Product</Link></h1>
               <h1><Link href={'/Shopping'}>Shopping</Link></h1>
               <h1><Link href={'/Contact'}>Contact Me</Link></h1>
               <h1><Link href={'/'}>Return policy</Link></h1>
-              
+
             </div>
           </div>
 
@@ -69,11 +69,11 @@ export const Footer = () => {
         <hr className='bg-[#4E4D93] my-8' />
 
         {/* Footer Bottom Section */}
-        <div className='flex flex-wrap justify-between items-center text-white gap-4'>
+        <div className='flex flex-wrap justify-between items-center text-white gap-4 '>
           <div>
             <h1>Copyright 2024 Avion LTD</h1>
           </div>
-          <div className='flex gap-4'>
+          <div className='flex gap-3'>
             <Link href={'/'}><FaLinkedin size={20} /></Link>
             <Link href={'/'}><FaFacebookSquare size={20} /></Link>
             <Link href={'/'}><FaInstagram size={20} /></Link>
@@ -86,4 +86,3 @@ export const Footer = () => {
     </div>
   )
 }
- 
