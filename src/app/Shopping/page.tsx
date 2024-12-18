@@ -18,7 +18,7 @@ const Shopping = () => {
         {/* Product 1 */}
         <div className="flex flex-col sm:flex-row sm:items-center justify-between sm:justify-around bg-white rounded-lg shadow-md p-4 mb-6">
           <Image
-            src="/Images/Product one.png"
+            src="/Images/Product 1.png"
             alt="Product 1"
             width={1500}
             height={1500}
@@ -35,11 +35,11 @@ const Shopping = () => {
         {/* Product 2 */}
         <div className="flex flex-col sm:flex-row sm:items-center justify-between sm:justify-around bg-white rounded-lg shadow-md p-4 mb-6">
           <Image
-            src="/Images/Product two.png"
+            src="/images/Products.png"
             alt="Product 2"
-            width={1500}
-            height={1500}
-            className="rounded-md object-cover w-[292PX]  h-[134px]"
+            width={100}
+            height={100}
+            className="rounded-md object-cover w-[250PX]  h-[100px]"
           />
 
           <div className="mt-4 sm:mt-0 text-center text-[#2A254B]">
